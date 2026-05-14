@@ -5,10 +5,10 @@
 ## What It Does
 
 - Reads a user-provided paper PDF, paper text, abstract, method section, experiment section, or screenshots.
-- Produces a complete Chinese `.md` report named `论文标题.md`.
+- Produces a complete Chinese `.md` report named after the paper title.
 - Focuses on Methodology, Method, Approach, Framework, Experiments, formulas, modules, limitations, and reproducibility.
-- Requires evidence-based analysis and explicitly labels missing details as `论文未明确说明`.
-- Separates cautious interpretation with `基于论文内容的谨慎推断`.
+- Requires evidence-based analysis and explicitly labels missing details in Chinese.
+- Separates cautious interpretation from paper-stated facts.
 
 ## Install
 
@@ -31,7 +31,7 @@ Use $paper-analysis to analyze this uploaded paper and generate a complete Markd
 The generated report should be saved as:
 
 ```text
-论文标题.md
+<paper-title>.md
 ```
 
 ## Skill Files
