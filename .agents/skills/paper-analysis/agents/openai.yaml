@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Analysis"
+  short_description: "Chinese paper analysis reports."
+  default_prompt: "Use $paper-analysis to analyze the uploaded paper and generate a complete Markdown report named after the paper title."
